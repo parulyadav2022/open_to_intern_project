@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-
 const collegeModule = new mongoose.Schema({
     name: {
         type: String,
