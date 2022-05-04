@@ -8,7 +8,7 @@ const port = 3000
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-mongoose.connect("mongodb+srv://firstDB:zwPu7dwJG0RCXU9f@cluster0.kgij2.mongodb.net/project2-DB?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://firstDB:zwPu7dwJG0RCXU9f@cluster0.kgij2.mongodb.net/groupXDatabase?retryWrites=true&w=majority", {
         useNewUrlParser: true
     })
     .then((result) => console.log("MongoDb is connected"))
